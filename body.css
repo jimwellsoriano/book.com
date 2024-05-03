@@ -1,0 +1,179 @@
+
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.section1{
+    margin-bottom: 70px;
+}
+
+.Devbook-container{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.icon-logo{
+    margin-right: 5px;
+    height: 50px;
+}
+
+.free-book-landing-page{
+    font-size: 45px;
+    color: rgb(28, 30, 46);
+    font-weight: 700;
+    width: 600px;
+    margin-bottom: 15px;
+}
+
+.free-bootstrap{
+    font-size: 21px;
+    color:rgb(96, 102, 157);
+    font-weight: 500;
+    width: 650px;
+    margin-bottom: 25px;
+}
+
+.btn-container{
+    margin-bottom: 60px;
+}
+
+.buy-btn{
+    background-color: rgb(237, 101, 36);
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    height: 60px;
+    width: 190px;
+    border-radius: 40px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    margin-right: 10px;
+    padding-bottom: 2px;
+    transition: opacity 0.15s;
+}
+
+.buy-btn:hover{
+    opacity: 0.9;
+}
+
+.buy-btn:active{
+    opacity: 0.6;
+}
+
+.learn-more{
+    background-color: white;
+    border: 3px solid rgb(237, 101, 36);
+    color: rgb(237, 101, 36);
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    height: 60px;
+    width: 190px;
+    border-radius: 40px;
+    font-weight: 700;
+    transition: color, background-color 0.50s, opacity 0.15s;
+    padding-bottom: 2px;
+}
+
+.learn-more:hover{
+    opacity: 0.9;
+    color: white;
+    background-color: rgb(237, 101, 36);
+}
+
+.learn-more:active{
+    opacity: 0.6;
+}
+
+.excellent-book{
+    color:rgb(96, 102, 157);
+    font-size: 17px;
+    font-weight: 500;
+    width: 600px;
+    height: 140px;
+    display: flex;
+    align-items:center;
+    border-left: 4px solid rgb(237, 101, 36);
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(246, 248, 252);
+    margin-bottom: 15px;
+}   
+
+.profile-picture{
+    height: 60px;
+    border: 40px;
+    margin-right: 20px;
+}
+
+.profile-picture-container{
+    display: flex;
+    align-items: center;
+}
+
+.profile-name-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name-container p {
+    color:rgb(96, 102, 157) ;
+}
+
+.first-page-container{
+    display: flex;
+}
+
+.img-container{
+    display: flex;
+}
+
+.devbook-img{
+    height: 700px;
+}
+
+.new-release{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    width: 130px;
+    background-color: rgb(92, 179, 119);
+    border-radius: 100px;
+    color: white;
+    font-size: 22px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.50);
+    margin-left: -110px;
+    margin-top: -30px;
+}
+
+.new-release span{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+}
+
+.see-all-link{
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    transition: color 0.15s;
+}
+
+.see-all-link:hover{
+    color:rgb(237, 101, 36) ;
+}
+
+.first-page-child{
+    padding-top: 70px;
+    padding-right: 50px;
+}

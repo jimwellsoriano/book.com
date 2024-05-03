@@ -1,0 +1,60 @@
+.second-container{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 70px;
+    place-content: center;
+}
+
+
+.second-section{
+    height: 700px;
+    background-color: rgb(246, 248, 252);
+}
+
+.what-will-you-got{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-intro{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-txt{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.bomb-icon{
+    color: rgb(237, 101, 36);
+    font-size: 50px;
+}
+
+.first-description{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+
+.second-description{
+    line-height: 1.5;
+    text-align: center;
+}
+
+.bomb-icon{
+    margin-bottom: 5px;
+}
+
+
